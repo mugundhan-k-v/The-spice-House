@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+.navbar .navbar-brand
+{
+    font-size: 25px;
+    font-weight: 800;
+    color: #29f700 !important;
+}
+#navbarSupportedContent a{
+    color: aliceblue;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid  #29f700;
+}
+#navbarSupportedContent button{
+    background: #29f700;
+    width: 5rem;
+    border-radius: 15px;
+}
+#navbarSupportedContent form{
+    display: flex;
+    flex-direction: row;
+}
+.form .input-group{
+    width: 20%;
+    height: 45px;
+    padding: left 10% !important;
+}
+.btn {
+    background: #3cb125 !important;
+    color: #fff !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+    border-radius: 0px;
+    padding-left: 30px ;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/****Home*****/
+
+#home{
+    background:linear-gradient(rgb(103, 103, 103),rgb(68, 68, 68));
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 50px;
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc
+                 0px 2px 0px #ccc
+                 0px 3px 0px #ccc
+                 0px 4px 0px #ccc
+                 0px 5px 0px #ccc
+                 0px 6px 0px #ccc
+                 0px 7px 0px #ccc;
+}#home p{
+    font-size: 18px;
+    color: #fff;
+
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background: #3cb125 !important;
+    color: #fff !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+
+/****About****/
+
+#about {
+    background:linear-gradient(rgb(68, 68, 68),#a3ac83) ;
+}
+#about h1{
+    font-size: 50px;
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#about p{
+    font-size: 15px;
+    color: #fff;
+
+}
+
+/****Products****/
+
+#Products {
+    background: linear-gradient(#a3ac83,#afbb85);
+
+}
+#Products h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+#product img{
+    width: 100px !important;
+    height: 100px !important;
+}
+.card {
+    width: 250px !important;
+    height: 300px !important;
+    background: #b1bb8b !important;
+    border: none !important;
+    box-shadow: 15px 20px 10px rgba(0,0,0,.3),
+                inset 4px 4px 10px #e6edc8;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px #e6edc8;
+}
+
+
+/****Contact****/
+
+
+#Contact {
+    background: linear-gradient(#afbb85,#f2ffc3);
+}
+#Contact img{
+    height: 100%;
+}
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+#Contact input{
+    margin: 10px 0px;
+}
+#Contact textarea{
+    margin: 10px 0px;   
+}
